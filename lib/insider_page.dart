@@ -67,7 +67,7 @@ class InsiderPage extends StatelessWidget {
             ),
           ),
           Container(
-            width: 300,
+            width: 280,
             padding: const EdgeInsets.all(15.0),
             child: Text(
               displayText,
