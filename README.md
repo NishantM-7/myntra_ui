@@ -1,16 +1,29 @@
-# insider_ui
+# MYNTRA_UI
 
-A new Flutter project.
+* Comprises UI of two screens of the famous shopping e-commerce app - 
+1.Home Screen
+2.Insider Screen
+* Navigation from Home to Insider Screen.
 
-## Getting Started
+### Home Screen
+The Components Of Home Screen are:
+1. AppBar:
+The AppBar consists of - 
+* Hamburger Drawer                         
+* Myntra Insider (On click , navigates to the Myntra Insider Page)
+* IconButtons (Search , Wishlist, Cart)
+2. Body:
+The Body Consists of - 
+* Carousel (manual slidable)
+* Horizontal Listview of Featured Products
 
-This project is a starting point for a Flutter application.
+<img src="https://user-images.githubusercontent.com/98823396/221437154-6682057e-acf7-4a2f-8436-6b94bec1d0d0.png" data-canonical-src="https://user-images.githubusercontent.com/98823396/221437154-6682057e-acf7-4a2f-8436-6b94bec1d0d0.png" width="200" height="400" />
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Insider Screen
+The Insider Screen consists of - 
+* Welcome Image with 'Become an Insider' tag
+* Goal Criteria
+* Benefits of the Program
+* How it Works
+* Rewards Carousel.
+<img src="https://user-images.githubusercontent.com/98823396/221438622-dbd63465-3d83-4070-bec1-7355a216193a.png" data-canonical-src="https://user-images.githubusercontent.com/98823396/221438622-dbd63465-3d83-4070-bec1-7355a216193a.png" width="200" height="400" />
